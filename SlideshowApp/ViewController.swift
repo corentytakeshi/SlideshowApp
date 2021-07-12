@@ -23,9 +23,9 @@ class ViewController: UIViewController {
     
     //画像保持
     var imageArray:[UIImage] = [
-        UIImage(named: "chara_jerry")!,
-        UIImage(named: "chara_tom")!,
-        UIImage(named: "tom&jerry")!
+        UIImage(named: "chara_jerry.png")!,
+        UIImage(named: "chara_tom.png")!,
+        UIImage(named: "tom&jerry.jpeg")!
     ]
         
     //imageArrayのIndex指定用変数
@@ -76,7 +76,24 @@ class ViewController: UIViewController {
         // indexの画像をstoryboardの画像にセットする
         self.imageView.image = imageArray[self.imageArrayIndex]
     }
+    
+    @IBAction func imageButton(_ sender: Any) {
+        if (timer != nil) {
+            // タイマーを停止する
+            self.timer.invalidate()
 
+            // タイマーをnilにする
+            self.timer = nil
+ 
+            //進む/戻るボタンを活性
+            self.nextButton.isEnabled = true
+            self.backButton.isEnabled = true
+            
+            //ボタンの表示文字を変更
+            self.startAndStopButton.setTitle("再生", for: .normal)
+
+        }
+    }
 
     @IBAction func nextImage(_ sender: Any) {
         changeNextImage()
