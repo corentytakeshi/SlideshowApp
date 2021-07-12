@@ -13,10 +13,10 @@
 		AB124292269484020072C2A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB124290269484020072C2A8 /* Main.storyboard */; };
 		AB124294269484020072C2A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB124293269484020072C2A8 /* Assets.xcassets */; };
 		AB124297269484020072C2A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB124295269484020072C2A8 /* LaunchScreen.storyboard */; };
-		AB1242A2269491AE0072C2A8 /* tom&jerry.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AB12429F269491AE0072C2A8 /* tom&jerry.jpeg */; };
-		AB1242A3269491AE0072C2A8 /* chara_tom.png in Resources */ = {isa = PBXBuildFile; fileRef = AB1242A0269491AE0072C2A8 /* chara_tom.png */; };
-		AB1242A4269491AE0072C2A8 /* chara_jerry.png in Resources */ = {isa = PBXBuildFile; fileRef = AB1242A1269491AE0072C2A8 /* chara_jerry.png */; };
 		AB1242AB2695383A0072C2A8 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1242AA2695383A0072C2A8 /* ImageViewController.swift */; };
+		AB1242AF269BCD520072C2A8 /* chara_tom.png in Resources */ = {isa = PBXBuildFile; fileRef = AB1242AE269BCD520072C2A8 /* chara_tom.png */; };
+		AB1242B2269BCD5A0072C2A8 /* chara_jerry.png in Resources */ = {isa = PBXBuildFile; fileRef = AB1242B1269BCD5A0072C2A8 /* chara_jerry.png */; };
+		AB1242B5269BCD610072C2A8 /* tom&jerry.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AB1242B4269BCD610072C2A8 /* tom&jerry.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +28,10 @@
 		AB124293269484020072C2A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB124296269484020072C2A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB124298269484020072C2A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AB12429F269491AE0072C2A8 /* tom&jerry.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tom&jerry.jpeg"; path = "../../../../../Pictures/tom&jerry.jpeg"; sourceTree = "<group>"; };
-		AB1242A0269491AE0072C2A8 /* chara_tom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chara_tom.png; path = ../../../../../Pictures/chara_tom.png; sourceTree = "<group>"; };
-		AB1242A1269491AE0072C2A8 /* chara_jerry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chara_jerry.png; path = ../../../../../Pictures/chara_jerry.png; sourceTree = "<group>"; };
 		AB1242AA2695383A0072C2A8 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		AB1242AE269BCD520072C2A8 /* chara_tom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chara_tom.png; sourceTree = "<group>"; };
+		AB1242B1269BCD5A0072C2A8 /* chara_jerry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chara_jerry.png; sourceTree = "<group>"; };
+		AB1242B4269BCD610072C2A8 /* tom&jerry.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tom&jerry.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,9 +72,9 @@
 				AB124293269484020072C2A8 /* Assets.xcassets */,
 				AB124295269484020072C2A8 /* LaunchScreen.storyboard */,
 				AB124298269484020072C2A8 /* Info.plist */,
-				AB1242A1269491AE0072C2A8 /* chara_jerry.png */,
-				AB1242A0269491AE0072C2A8 /* chara_tom.png */,
-				AB12429F269491AE0072C2A8 /* tom&jerry.jpeg */,
+				AB1242AE269BCD520072C2A8 /* chara_tom.png */,
+				AB1242B1269BCD5A0072C2A8 /* chara_jerry.png */,
+				AB1242B4269BCD610072C2A8 /* tom&jerry.jpeg */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -136,12 +136,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB1242A4269491AE0072C2A8 /* chara_jerry.png in Resources */,
-				AB1242A2269491AE0072C2A8 /* tom&jerry.jpeg in Resources */,
+				AB1242B5269BCD610072C2A8 /* tom&jerry.jpeg in Resources */,
 				AB124297269484020072C2A8 /* LaunchScreen.storyboard in Resources */,
 				AB124294269484020072C2A8 /* Assets.xcassets in Resources */,
+				AB1242AF269BCD520072C2A8 /* chara_tom.png in Resources */,
+				AB1242B2269BCD5A0072C2A8 /* chara_jerry.png in Resources */,
 				AB124292269484020072C2A8 /* Main.storyboard in Resources */,
-				AB1242A3269491AE0072C2A8 /* chara_tom.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
